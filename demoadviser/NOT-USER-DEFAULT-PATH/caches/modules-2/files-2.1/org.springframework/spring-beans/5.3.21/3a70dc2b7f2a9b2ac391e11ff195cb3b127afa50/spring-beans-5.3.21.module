@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-beans",
+    "version": "5.3.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.21.jar",
+          "url": "spring-beans-5.3.21.jar",
+          "size": 698806,
+          "sha512": "4af81d7893da52ad1a5352c09c7363bc62b848a1945a2e866c0e554896785fd76c3059207eb9dc9148a7d3220f8866591298e7f759c0e26a8bd418b484b8f543",
+          "sha256": "36a36bb3a8a7fd8104d11f02a7f98f0318a686642f01eff67b263ece9fb081c2",
+          "sha1": "e3eae7e6d211381642a0b7507a5215e3ac1b32e1",
+          "md5": "b159a05461865ca3b5426f9d9f4203e9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.21.jar",
+          "url": "spring-beans-5.3.21.jar",
+          "size": 698806,
+          "sha512": "4af81d7893da52ad1a5352c09c7363bc62b848a1945a2e866c0e554896785fd76c3059207eb9dc9148a7d3220f8866591298e7f759c0e26a8bd418b484b8f543",
+          "sha256": "36a36bb3a8a7fd8104d11f02a7f98f0318a686642f01eff67b263ece9fb081c2",
+          "sha1": "e3eae7e6d211381642a0b7507a5215e3ac1b32e1",
+          "md5": "b159a05461865ca3b5426f9d9f4203e9"
+        }
+      ]
+    }
+  ]
+}
