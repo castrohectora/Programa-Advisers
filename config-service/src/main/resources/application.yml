@@ -6,11 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/castrohectora/Programa-Advisers.git
-          searchPaths: config-datax
+          uri: https://github.com/castrohectora/Programa-Advisers
+          searchPaths: config-data
+          skipSslValidation: true
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
     user:
-      name: rootx
+      name: root
       password: pass
