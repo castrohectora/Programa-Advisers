@@ -7,10 +7,10 @@ spring:
       server:
         git:
           uri: https://github.com/castrohectora/Programa-Advisers.git
-          searchPaths: config-data
+          searchPaths: config-datax
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
     user:
-      name: root
+      name: rootx
       password: pass
