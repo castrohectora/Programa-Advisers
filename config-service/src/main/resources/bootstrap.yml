@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/castrohectora/Programa-Advisers.git
+          searchPaths: config-data
+          #skipSslValidation: true
+          #username: castro.hector@gmail.com
+          #password: 90ch0la9ant3ra
+  profiles:
+    active: dev
+  security:
+    user:
+      name: root
+      password: pass
