@@ -6,11 +6,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/castrohectora/Programa-Advisers
+          uri: https://github.com/castrohectora/Programa-Advisers.git
           searchPaths: config-data
-          skipSslValidation: true
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          #skipSslValidation: true
+          #username: castro.hector@gmail.com
+          #password: 90ch0la9ant3ra
+  profiles:
+    active: dev
   security:
     user:
       name: root
